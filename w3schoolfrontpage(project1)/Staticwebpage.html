@@ -1,0 +1,218 @@
+!DOCTYPE html
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="staticpage.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+    <body>
+        <div class="header1">
+            <img src="data:image/png;base64,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" alt="w3schools" style="width:50px;height:40px;margin-left:15px;">
+            <div class="btn-group">
+          
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Tutorial
+                <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">DataAnalytics</a></li>
+                <li><a href="#">Webbuilding</a></li>
+              </ul>
+            </div>
+            <div class="btn-group">
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Exercise
+                <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">DataAnalytics</a></li>
+                <li><a href="#">Webbuilding</a></li>
+              </ul>
+            </div>
+            <div class="btn-group">
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">GetCertified
+                <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">DataAnalytics</a></li>
+                <li><a href="#">Webbuilding</a></li>
+              </ul>
+            </div>
+            <div class="btn-group">
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Services
+                <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">DataAnalytics</a></li>
+                <li><a href="#">Webbuilding</a></li>
+              </ul>
+            </div>
+            <div class="topnav">
+              <input type="text" placeholder="Search..">
+            </div>
+          </div>
+          <div class="head">
+            <div class="header head1">HTML</div>
+            <div class="header head2">CSS</div>
+            <div class="header head3">Javascript</div>
+            <div class="header head4">BootStrap</div>
+            <div class="header head5">c++</div>
+            <div class="header head6">c</div>
+            <div class="header head7">PHP</div>
+            <div class="header head8">SQL</div>
+            <div class="header head9">PYTHON</div>
+            <div class="header head10">JAVA</div>
+          </div>
+          <div class="main">
+            <div class="leftmenu-wrapper">
+              <div class="left-menu">
+                <h3> CSS TUTORIAL</h3>
+                <div class="sticky">
+                  <div class="menu menu1">CSS Home</div>
+                  <div class="menu menu2">CSS Introduction</div>
+                  <div class="menu menu3">CSS Syntax</div>
+                  <div class="menu menu4">CSS Selectors</div>
+                  <div class="menu menu5">CSS Comments</div>
+                  <div class="menu menu6">CSS Colors</div>
+                  <div class="menu menu7">CSS Background</div>
+                  <div class="menu menu8">CSS Borders</div>
+                  <div class="menu menu9">CSS Margin</div>
+                  <div class="menu menu10">CSS Padding</div>
+                  <div class="menu menu11">CSS Height/Width</div>
+                  <div class="menu menu12">CSS Boxmodel</div>
+                  <div class="menu menu13">CSS Outline</div>
+                  <div class="menu menu14">CSS Text</div>
+                  <div class="menu menu15">CSS Font</div>
+                  <div class="menu menu16">CSS Icon</div>
+                  <div class="menu menu17">CSS Link</div>
+                  <div class="menu menu18">CSS List</div>
+                  <div class="menu menu19">CSS Table</div>
+                  <div class="menu menu20">CSS Display</div>
+                  <div class="menu menu21">CSS Position</div>
+                  <div class="menu menu22">CSS z-index</div>
+                  <div class="menu menu23">CSS Align</div>
+                  <div class="menu menu24">CSS Inline-block</div>
+                  <div class="menu menu25">CSS Opacity</div>
+                  <div class="menu menu26">CSS Navigator</div>
+                </div>
+              </div>
+            </div>
+            <div class="content-wrapper">
+          
+              <div class="img">
+                <img src="data:image/jpeg;base64,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" alt="w3schools" style="width:500px;height:60px;margin-left:15px;">
+              </div>
+              <div class="content">
+          
+                <h3> CSS tutorial </h3>
+                <div class="btn">
+                  <a href="#" class="previous">&laquo; Home</a>
+                  <a href="#" class="next">Next &raquo;</a>
+          
+                  <a href="#" class="previous round">&#8249;</a>
+                  <a href="#" class="next round">&#8250;</a>
+                </div>
+                <div class="content content1"> This is a complete tutorial to CSS.CSS is the language we use to style an HTML document.
+          
+                  CSS describes how HTML elements should be displayed.
+          
+                  This tutorial will teach you CSS from basic to advanced.
+                  <div class="btn1">
+                    <a href="#" class="next">Start learning CSS now &raquo;</a>
+                  </div>
+          
+                </div>
+                <div class="content content2">
+                  <h3>Examples in Each Chapter</h3>
+                  This CSS tutorial contains hundreds of CSS examples.
+          
+                  With our online editor, you can edit the CSS, and click on a button to view the result.
+                </div>
+                <div class="content content3">
+                  <h3>CSS Example</h3>
+                  <div class="content11">
+                    body {<p>
+                      background-color: lightblue;
+                    <p>
+                      }
+                    <p>
+          
+                      h1 {
+                    <p>
+                      color: white;
+                    <p>
+                      text-align: center;
+                    <p>
+                      }
+                    <p>
+          
+                      p {
+                    <p>
+                      font-family: verdana;
+                    <p>
+                      font-size: 20px;
+                    <p>
+                      }
+                    <p>
+                  </div>
+                  <div class="btn2">
+                    <a href="#" class="next">Try it yourself &raquo;</a>
+                  </div>
+                </div>
+                <div class="content content4">
+                  <h3> CSS Quiz </h3>
+                  Test your CSS skills with a quiz<p>
+                  <div class="btn3">
+                    <a href="#" class="next1">Start CSS Quiz! &raquo;</a>
+                  </div>
+                </div>
+                <h3> My Learning </h3>
+                <div class="content content5">
+                  Track your progress with the free "My Learning" program here at W3Schools.<br>
+          
+                  Log in to your account, and start earning points!<br>
+          
+                  This is an optional feature. You can study W3Schools without using My Learning.<br>
+                </div>
+                <h3>CSS References </h3>
+                <div class="content content6">
+                  At W3Schools you will find complete CSS references of all properties <br> and selectors with syntax, examples, browser support, and more.<p>
+                  <div class="w3-container">
+          
+                    <button class="w3-button w3-panel w3-padding-16 w3-grey w3-hover-black"> CSS Properties </button>
+                    <button class="w3-button w3-panel w3-padding-16 w3-grey w3-hover-black"> CSS Selector </button>
+                    <button class="w3-button w3-panel w3-padding-16 w3-grey w3-hover-black"> CSS Browsersupport </button>
+                    <button class="w3-button w3-panel w3-padding-16 w3-grey w3-hover-black"> CSS Functions </button>
+                    <button class="w3-button w3-panel w3-padding-16 w3-grey w3-hover-black"> CSS Animatable </button>
+                    <button class="w3-button w3-panel w3-padding-16 w3-grey w3-hover-black"> CSS Aural </button>
+                    <button class="w3-button w3-panel w3-padding-16 w3-grey w3-hover-black"> CSS WebSafefonts </button>
+                    <button class="w3-button w3-panel w3-padding-16 w3-grey w3-hover-black"> CSS Units </button>
+                    <button class="w3-button w3-panel w3-padding-16 w3-grey w3-hover-black"> Pm to Em conversion </button>
+                  </div>
+                </div>
+                <div class="content content7">
+                  <div class="content22">
+                  Kick start your career<br><p>
+                  Get certified by completing the CSS course!!!<p>
+                  </div>
+                  <div class="w3-container">
+                    <button class="w3-button w3-green w3-round-xlarge"> Get Certified </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+          
+          <div class="footer"></div>
+    </body>
+</html>
