@@ -172,3 +172,28 @@ a {
   
   
 }
+.content8 {
+  background-image: url('https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80');
+  background-repeat: no-repeat;
+  backgroung-size: 100% 100%;
+  height: 400px;
+}
+
+.footerhead{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  }
+.footer-middle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+   row-gap: 10px;
+  align-content: space-evenly;
+}
+.column {
+  color:  #ffff66;
+  display: flex;
+  flex-direction: column;
+}
